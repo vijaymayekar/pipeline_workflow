@@ -43,7 +43,7 @@ class Log
      * @access protected
      */
     var $_opened = false;
-    var $_closed = false;
+    var $_closed = true;
 
     /**
      * Instance-specific unique identification number.
