@@ -43,6 +43,7 @@ class Log
      * @access protected
      */
     var $_opened = false;
+    var $_closed = false;
 
     /**
      * Instance-specific unique identification number.
@@ -98,6 +99,7 @@ class Log
                             '%{file}'       => '%5$s',
                             '%{line}'       => '%6$s',
                             '%{function}'   => '%7$s',
+                            '%{fish}'   => '%7$s',
                             '%\{'           => '%%{');
 
     /**
